@@ -1,0 +1,151 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1e1e1e;
+  font-family: Inter Regular, sans-serif;
+  margin: 0;
+  font-weight: 400;
+}
+
+.content-section {
+  box-sizing: border-box;
+  margin: auto;
+  width: 360px;
+}
+
+.content-section_theme_dark {
+  background-color: #131313;
+  color: fff;
+}
+
+.content-section_theme_bright {
+  background-color: #fee42a;
+  color: 131313;
+}
+
+.header {
+  padding: 24px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.cover {
+  padding: 7px 24px 32px 20px;
+  background-image:url(../Images/cover.svg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 95% auto;
+
+}
+.intro {
+  padding: 0 20px 38px;
+}
+
+.reasons {
+  padding: 40px 20px 60px;
+}
+
+.how-to {
+  padding: 40px 20px 60px;
+}
+
+.footer {
+  padding: 20px;
+}
+
+.header__logo {
+  width: 78px;
+  display: block;
+}
+
+.header__logo-image {
+  width: 100%;
+}
+
+.header__menu {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.header__menu-link {
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.header__menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  list-style: none;
+}
+
+.header__menu-item {
+}
+
+.header__menu-item_active .header__menu-link {
+  text-decoration: none;
+}
+
+.cover__title {
+  display: block;
+  95% auto;
+  color: #fff;
+  width: 100%;
+  font-family: 'EB Garamond Medium', serif;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 1;
+}
+
+.accent-span {
+  display: block;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.intro__heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 22px;
+  color: #CCC;
+  font-size: 16px;
+}
+.intro__title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+}
+.intro__date {
+  white-space: nowrap;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.intro__main-text {
+  margin-top: 24px;
+  color: #f5f5f5;
+  font-size: 16px;
+  line-height: 1.35;
+}
